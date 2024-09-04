@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap');
+
+body{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+  background-color: black;
+  color:rgb(25, 196, 25);
+}
+header{
+  border-bottom: 2px solid rgb(25, 196, 25);
+}
+.logo{
+  margin:0;
+  padding:10px;
+}
+  .logo a{
+    text-decoration: none;
+    color:rgb(25, 196, 25);
+    opacity: 0.8;
+ }
+ .logo a:hover{
+  opacity: 1.0;
+ }
+  
+main{
+  height:60vh;
+  display:flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: rgb(24, 24, 24);
+}
+.title{
+  font-family: "Krona One", sans-serif;
+}
+.openings-title{
+  font-family:"Krona One", sans-serif ;
+  text-decoration: none;
+  color:white;
+  text-align: center;
+  opacity: 0.8;
+  }
+  .openings-title:hover{
+    color:rgb(25, 196, 25);
+    opacity: 1.0;
+    cursor:pointer;
+  }
+.content h2{
+  font-size: 30px;
+}
+.bar{
+  height: 2px;
+  width:500px;
+  background-color: rgb(25, 196, 25);
+}
+.video{
+  border-radius: 10px;
+  border:1px solid rgb(25, 196, 25);
+}
+
+.openings-img{
+  display:flex;
+  justify-content: space-evenly;
+  margin-top: 30px;
+}
+
+.openings-img img{
+  height:300px;
+  width: 300px;
+  border:2px solid white;
+}
+
+.openings-content{
+  display:flex;
+  flex-direction: column;
+  text-align: center;
+}
+  .openings-content p{
+    font-family:"Krona One", sans-serif ;
+    font-size: 10px;
+  }
